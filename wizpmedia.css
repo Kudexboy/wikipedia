@@ -1,0 +1,447 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.head {
+  width: 80%;
+  /* border: 1px solid; */
+  margin: 30px auto;
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  min-height:60dvh;
+  /* border: 1px solid; */
+}
+
+.inner-container {
+  display: flex;
+  width: 80%;
+  margin: 10px auto;
+  /* border: 1px solid; */
+  justify-content: center;
+  gap: 7%;
+  position: relative;
+  font-size: 16px;
+}
+
+.inner-container div {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.inner-container IMG {
+  width: 200px;
+  padding-top: 70px;
+  position: relative;
+}
+
+.inner-container h4 {
+  color: #4B66CC;
+}
+
+.eng1 {
+  left: 0px;
+  position: absolute;
+  margin-left: 300px;
+
+}
+
+.eng2 {
+  padding-top: 60px;
+  left: 0px;
+  margin-left: 250px;
+  position: absolute;
+}
+
+.eng3 {
+  padding-top: 120px;
+  position: absolute;
+  left: 0;
+  margin-left: 230px;
+}
+
+.eng4 {
+  padding-top: 190px;
+  position: absolute;
+  left: 0;
+  margin-left: 220px;
+}
+
+.eng5 {
+  padding-top: 265px;
+  position: absolute;
+  left: 0;
+  margin-left: 270px;
+}
+
+.eng6 {
+  position: absolute;
+  left: 0px;
+  margin-left: 600px;
+}
+
+.eng7 {
+  padding-top: 60px;
+  position: absolute;
+  left: 0px;
+  margin-left: 660px;
+}
+
+.eng8 {
+  padding-top: 120px;
+  left: 0px;
+  position: absolute;
+  margin-left: 650px;
+}
+
+.eng9 {
+  padding-top: 190px;
+  position: absolute;
+  left: 0px;
+  margin-left: 640px;
+}
+
+.eng10 {
+  padding-top: 265px;
+  position: absolute;
+  left: 0px;
+  margin-left: 600px;
+}
+.container1{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #f5f5f5; */
+  
+}
+
+.search-container{
+  display: flex;
+  width: 500px;
+  height: 50px;
+  border: 1px solid #ddd;
+  background-color: white;
+}
+.search-container input{
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 0px 15px;
+  font-size: 15px;
+}
+.search-container select{
+  width: 80px;
+  border: 1px solid #ddd;
+  outline: none;
+  font-size: 18px;
+  background-color: white;
+}
+.search-container button{
+  width: 60px;
+  border: none;
+  background-color: #003d99;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+.search-container button:hover{
+  opacity: 0.9;
+}
+
+
+
+/* body{
+    background:#fff;
+    display:flex;
+    justify-content:center;
+    padding:40px 20px;
+} */
+
+.wikimedia{
+  width: 100%;
+  min-height: 80dvh;
+}
+
+
+.inner-media{
+  width: 90%;
+  /* border: 1px solid; */
+  display: flex;
+  margin: 50px auto;
+  gap: 4%;
+
+}
+.con{
+    width:32%;
+    /* border: 1px solid; */
+}
+
+.card{
+    display:flex;
+    gap:20px;
+    margin-bottom:40px;
+}
+.icon img{
+    width:55px;
+}
+
+.content p{
+    color:#54595d;
+    font-size:16px;
+    line-height:1.6;
+    margin-bottom:10px;
+}
+
+.content a{
+    text-decoration:none;
+    color:#3366cc;
+}
+
+.content a:hover{
+    text-decoration:underline;
+}
+
+.content h3{
+    margin-bottom:15px;
+    font-size:24px;
+    font-weight:600;
+}
+
+.buttons{
+    display:flex;
+    gap:15px;
+    margin-top:20px;
+}
+
+.inner-media .buttons img{
+    width:100px;
+    cursor:pointer;
+}
+.inner-media img{
+  width: 50px;
+  margin-bottom: 10px;
+}
+.inner-media a{
+color:#3366cc;
+font-size: 14px;
+}
+.inner-media p{
+  font-size:13px;
+  font-weight: 400;
+  font-style: normal;
+   color:#54595d;
+  
+  
+}
+.query{
+   width: 70%;
+    height: 70dvh;
+    display: grid;
+    margin: auto;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows:repeat(4, 1fr);
+    /* border: 1px solid; */
+}
+.box1{
+  display: flex;
+  width: 200px;
+  /* border: 1px solid; */
+}
+.box2{
+    display: flex;
+  width: 200px;
+
+}
+.box3{
+    display: flex;
+  width: 200px;
+
+}
+.box4{
+    display: flex;
+  width: 200px;
+
+}
+.box5{
+    display: flex;
+  width: 260px;
+
+}
+.box6{
+    display: flex;
+  width: 200px;
+
+}
+.box7{
+    display: flex;
+  width: 200px;
+
+}
+.box8{
+    display: flex;
+  width: 200px;
+
+}
+.box9{
+    display: flex;
+  width: 200px;
+
+}
+.box10{
+    display: flex;
+  width: 200px;
+
+}
+.box11{
+    display: flex;
+  width: 260px;
+
+}
+.box12{
+    display: flex;
+  width: 200px;
+
+}
+
+
+@media screen and (max-width:768px) {
+
+   .inner-media{
+    flex-direction: column;
+    width: 90%;
+    position: relative;
+  }
+  .con{
+    width: 100%;
+  }
+  .query{
+    width: 100%;
+  }
+  .container{
+    min-height: 40dvh;
+  }
+  .inner-container {
+    width: 80%;
+  }
+  .inner-container div {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.inner-container IMG {
+  width: 200px;
+  padding-top: 70px;
+  position: relative;
+}
+
+.inner-container h4 {
+  color: #4B66CC;
+}
+
+.eng1 {
+  left: 0px;
+  position: absolute;
+  margin-left:100px;
+
+}
+
+.eng2 {
+  padding-top: 60px;
+  left: 0px;
+  margin-left: 50px;
+  position: absolute;
+}
+
+.eng3 {
+  padding-top: 120px;
+  position: absolute;
+  left: 0;
+  margin-left: 40px;
+}
+
+.eng4 {
+  padding-top: 190px;
+  position: absolute;
+  left: 0;
+  margin-left: 30px;
+}
+
+.eng5 {
+  padding-top: 265px;
+  position: absolute;
+  left: 0;
+  margin-left: 130px;
+}
+
+.eng6 {
+  position: absolute;
+  left: 0px;
+  margin-left: 400px;
+}
+
+.eng7 {
+  padding-top: 60px;
+  position: absolute;
+  left: 0px;
+  margin-left: 430px;
+}
+
+.eng8 {
+  padding-top: 120px;
+  left: 0px;
+  position: absolute;
+  margin-left: 450px;
+}
+
+.eng9 {
+  padding-top: 190px;
+  position: absolute;
+  left: 0px;
+  margin-left: 440px;
+}
+
+.eng10 {
+  padding-top: 265px;
+  position: absolute;
+  left: 0px;
+  margin-left: 400px;
+}
+
+}
+@media screen and (max-width:428px) {
+  .inner-container  {
+    display: none;
+  }
+   .search-container{
+    width: 90%;
+   }
+      .inner-media{
+    flex-direction: column;
+    width: 90%;
+    position: relative;
+  }
+  .inner-media .buttons img{
+    text-align: center;
+  .card{
+    flex-direction: column;
+    text-align: center;
+  }
+  .con{
+    width: 100%;
+  }
+  .query{
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6,1fr);
+  }
+  .box1,.box2,.box3,.box4,.box5,.box6,.box6,.box8,.box9,.box10,.box11,.box11{
+  width:0px;
+  }
+   
+}
