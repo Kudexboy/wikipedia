@@ -428,6 +428,8 @@ font-size: 14px;
   }
   .inner-media .buttons img{
     text-align: center;
+  }
+
   .card{
     flex-direction: column;
     text-align: center;
@@ -444,5 +446,4 @@ font-size: 14px;
   width:0px;
   }
    
-}
 }
