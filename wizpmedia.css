@@ -414,7 +414,7 @@ font-size: 14px;
 }
 
 }
-@media screen and (max-width:428px) {
+@media screen and (max-width:450px) {
   .inner-container  {
     display: none;
   }
@@ -444,4 +444,5 @@ font-size: 14px;
   width:0px;
   }
    
+}
 }
